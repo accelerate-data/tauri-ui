@@ -1,6 +1,7 @@
 {
-  "name": "ad-backend",
+  "name": "backend-skills",
   "description": "Backend coding standards for Rust, Tauri, and Node sidecar architecture.",
+  "version": "1.0.1",
   "author": {
     "name": "Accelerate Data"
   },

@@ -30,3 +30,5 @@ Always-on coding standards in `rules/` covering naming conventions, logging poli
 
 - Keep all skill directories under `skills/`.
 - Keep all rule files under `rules/`.
+- Keep `.claude-plugin/plugin.json` and `.codex-plugin/plugin.json` on the same plugin name and version.
+- When plugin content or metadata changes, bump both manifest versions together and run `python3 scripts/validate_plugin_manifests.py`.
