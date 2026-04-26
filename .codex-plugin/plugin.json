@@ -1,24 +1,24 @@
 {
-  "name": "backend-skills",
-  "description": "Backend coding standards for Rust, Tauri, and Node sidecar architecture.",
-  "version": "1.1.0",
+  "name": "tauri-ui",
+  "description": "Project-agnostic Tauri app building and debugging guidance for Claude Code and Codex.",
+  "version": "1.1.1",
   "author": {
     "name": "Accelerate Data"
   },
-  "repository": "https://github.com/accelerate-data/backend-skills",
+  "repository": "https://github.com/accelerate-data/tauri-ui",
   "license": "MIT",
   "keywords": [
     "skills",
-    "backend",
     "rust",
     "tauri",
+    "ui",
     "codex",
     "claude-code"
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Backend Skills",
-    "shortDescription": "Backend coding standards and Tauri framework guides.",
+    "displayName": "Tauri UI",
+    "shortDescription": "Tauri app building and debugging guidance.",
     "developerName": "Accelerate Data",
     "category": "Coding",
     "capabilities": [],

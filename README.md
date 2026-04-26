@@ -60,12 +60,17 @@ npm --prefix tests/evals run test:opencode-cli-provider
 ## Install
 
 ```bash
-claude plugin add accelerate-data/backend-skills
+claude marketplace add accelerate-data/plugin-marketplace
+claude plugin install tauri-ui@plugin-marketplace
 ```
 
-Codex installs plugins through registered marketplaces. Register the marketplace repo or
-marketplace checkout that contains `backend-skills`; do not register this plugin source repo
-directly as a marketplace root.
+Codex installs plugins through registered marketplaces:
+
+```bash
+codex plugin marketplace add accelerate-data/plugin-marketplace
+```
+
+Do not register this plugin source repo directly as a marketplace root.
 
 ## Local development
 

@@ -10,11 +10,11 @@ from scripts.validate_plugin_manifests import validate
 
 def write_manifest(root: Path, relative_path: str, **overrides: object) -> None:
     manifest = {
-        "name": "backend-skills",
-        "description": "Backend coding standards for Rust, Tauri, and Node sidecar architecture.",
+        "name": "tauri-ui",
+        "description": "Project-agnostic Tauri app building and debugging guidance for Claude Code and Codex.",
         "version": "1.0.1",
         "author": {"name": "Accelerate Data"},
-        "repository": "https://github.com/accelerate-data/backend-skills",
+        "repository": "https://github.com/accelerate-data/tauri-ui",
         "license": "MIT",
         "skills": "./skills",
     }
@@ -45,7 +45,7 @@ class ManifestValidationTests(unittest.TestCase):
 
             errors = validate(root)
 
-        self.assertIn(".codex-plugin/plugin.json: expected name 'backend-skills', found 'ad-backend'", errors)
+        self.assertIn(".codex-plugin/plugin.json: expected name 'tauri-ui', found 'ad-backend'", errors)
         self.assertIn("manifest mismatch: 'name' differs between Claude and Codex", errors)
 
     def test_codex_version_is_required(self) -> None:

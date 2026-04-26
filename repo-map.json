@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-04-15T00:00:00Z",
-  "repo_root": "backend-skills",
+  "repo_root": "tauri-ui",
   "primary_languages": ["Markdown", "JSON"],
   "applications": [
     {
-      "name": "backend-skills plugin",
+      "name": "tauri-ui plugin",
       "type": "shared plugin source",
       "description": "Single plugin-source repository with Claude and Codex manifests, canonical skills under skills/, and rules under rules/."
     }
@@ -24,7 +24,7 @@
     },
     "rules": {
       "path": "rules/",
-      "description": "Always-on backend coding rules."
+      "description": "Always-on coding rules for Tauri app work."
     },
     "validation_scripts": {
       "path": "scripts/",

@@ -1,6 +1,6 @@
-# Backend Skills Plugin
+# Tauri UI Plugin
 
-Shared plugin repository for backend coding standards and framework skills used by Claude Code and Codex.
+Shared plugin repository for project-agnostic Tauri app building and debugging guidance used by Claude Code and Codex.
 
 **Maintenance rule:** This file contains durable repository guidance, not volatile inventory.
 
@@ -12,7 +12,7 @@ Shared plugin repository for backend coding standards and framework skills used 
 
 ## Repository Purpose
 
-Single plugin-source repo for backend skills.
+Single plugin-source repo for Tauri app skills.
 
 - Root manifests: `.claude-plugin/plugin.json` and `.codex-plugin/plugin.json`
 - Canonical skill content: `skills/`
@@ -20,7 +20,7 @@ Single plugin-source repo for backend skills.
 
 ## Skills
 
-- `skills/tauri/SKILL.md` - Tauri desktop app framework with Rust backend and Node sidecar
+- `skills/tauri/SKILL.md` - Tauri desktop app framework, frontend IPC, capabilities, plugins, sidecars, and distribution
 
 ## Rules
 
