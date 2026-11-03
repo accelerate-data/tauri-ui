@@ -1,7 +1,7 @@
 {
   "name": "tauri-ui",
   "description": "Project-agnostic Tauri app building and debugging guidance for Claude Code and Codex.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": {
     "name": "Accelerate Data"
   },
@@ -20,8 +20,9 @@
     "displayName": "Tauri UI",
     "shortDescription": "Tauri app building and debugging guidance.",
     "developerName": "Accelerate Data",
-    "category": "Coding",
+    "category": "Developer Tools",
     "capabilities": [],
-    "screenshots": []
+    "screenshots": [],
+    "longDescription": "Project-agnostic Tauri app building and debugging guidance for Claude Code and Codex."
   }
 }
